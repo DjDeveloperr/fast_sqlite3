@@ -1,0 +1,7 @@
+{
+  "tasks": {
+    "build": "deno run -A scripts/build.ts",
+    "bench": "deno run -A --unstable bench.deno.js",
+    "bench-bun": "bun bench.bun.js"
+  }
+}
